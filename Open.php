@@ -1,5 +1,5 @@
 <?php
-
+$heroku buildpacks:set heroku/php;
 $db = mysqli_connect('localhost','root','','h.u.n.tdb');
 session_start();
 
