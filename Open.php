@@ -1,5 +1,5 @@
 <?php
-$git push heroku master
+
 $db = mysqli_connect('localhost','root','','h.u.n.tdb');
 session_start();
 
